@@ -2,17 +2,17 @@ import { PageHeader } from "@/app/components/PageHeader";
 import { constructMetadata } from "@/utils/seo";
 
 export const metadata = constructMetadata({
-  title: "Home",
-  description: "Learn more about our Home offerings and expertise.",
+  title: "Reactjs Development",
+  description: "Learn more about our Reactjs Development offerings and expertise.",
 });
 
-export default function HomePage() {
+export default function ReactjsDevelopmentPage() {
   return (
     <div>
-      <PageHeader title="Home" />
+      <PageHeader title="Reactjs Development" />
       <div className="container mx-auto px-4 md:px-6 pb-20">
         <p className="text-lg text-gray-600 dark:text-gray-300">
-          Welcome to the Home page. This is placeholder content that will be updated soon.
+          Welcome to the Reactjs Development page. This is placeholder content that will be updated soon.
         </p>
       </div>
     </div>
