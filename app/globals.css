@@ -5,6 +5,7 @@
   --color-primary: #fdfde1;
   --color-accent: #ed1d24;
   --color-dark: #000000;
+  --color-secondary: #1c1c1c;
   --color-background: var(--color-dark);
   --color-foreground: var(--color-primary);
 
